@@ -3,6 +3,7 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.0.beta1'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'slim'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
